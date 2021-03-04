@@ -1,0 +1,1163 @@
+<INDIVIDUAL>
+<ID>subject7068</ID>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:48:19 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> They tell you that they like you and you set up plans to get together in the near future. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:46:33 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Good advice. Very True. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:43:35 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I could see this as a feasible application of hydrogen fuel cells seeing as you would be surrounded by water. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:40:10 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Very true and spot on. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:21:02 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> More like nonononoyes\^100 power </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:11:35 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> This gave me a good laugh. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 22:10:30 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Ignorance is bliss. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> How do we combat disinformation on the Internet? </TITLE>
+<DATE> 2019-11-09 21:58:33 </DATE>
+<INFO> reddit post </INFO>
+<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-09 20:23:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> They made a new account. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-08 18:39:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Escalator lobby fail. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-07 19:54:51 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Are you using Spyder in the Anaconda suite? If not, I would suggest you do. Very easy to check your work. Could be how you valued/coded the threshold. Or first try adding , inplace=True after axis=1 in the line beginning with return: 
+
+     return df.drop([col] , axis=1 , inplace=True)
+
+ I'm not sure though. Good luck. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-07 19:18:00 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> My bad this is my first post using code. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-07 18:53:22 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> \#I made a fictional df to show a solution to what I think you are asking.
+
+    import pandas as pd 
+    import numpy as np
+    
+    df = pd.DataFrame ({'Age' : [21, 22 ,23 ,33 , 22,33],
+          'TestScore': [70, 88, 55, 55,55,55],
+          'TimeInHours':[1,1,1,1,1,1]})
+    
+    df
+    Out[]: 
+       Age  TestScore  TimeInHours
+    0   21         70            1
+    1   22         88            1
+    2   23         55            1
+    3   33         55            1
+    4   22         55            1
+    5   33         55            1
+
+\#then I looked at the unique values for each variable with df.nunique()
+
+    df.nunique()
+    Out[]: 
+    Age            4
+    TestScore      3
+    TimeInHours    1
+    dtype: int64
+
+\#So there are 4 unique values to show age, 3 for test score, and 1 for Time in hours
+
+\#Now to eliminate variables that have more than 3 unique values I input the following
+
+    for col in df.columns :
+        if len(df[col].unique()) 3:
+           df.drop(col,inplace=True,axis=1)
+
+\#Output shows
+
+    df
+    Out[]: 
+       TestScore  TimeInHours
+    0         70            1
+    1         88            1
+    2         55            1
+    3         55            1
+    4         55            1
+    5         55            1
+
+\#As you can see the for loop dropped all the columns with more than 3 unique values--in this instance age.
+
+\#so if you want to drop columns in your dataframe that have greater than 200 unique values you can use this as a reference to do so. I tried to make this as clear as I could but if you have any questions feel free. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:40:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Mary Shelley. She wrote *Frankenstein; Or The Modern Prometheus*. This was one of the best books I've ever read. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:31:12 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Breaking smoking and driving was tough--so true. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:29:16 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Gone Girl </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:07:25 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Young Frankenstein </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:01:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> How do you make a plumber cry? 
+
+ #x200B;
+
+ #x200B;
+
+!Kill his family. ! </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 07:00:06 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Nice try FBI. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:58:35 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Dr Manhattan, we can go to Mars and stuff. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:55:47 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Stay away from crazy women. I had heard it before but didn't really learn it until it was too late in life. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:37:01 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> pneumonia </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:32:12 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> After a third person told me, "hey you're kinda weird but you're cool" </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:13:23 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Touch ; correct. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:09:58 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> "If it bleeds we can kill it." </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:08:54 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Inglorious Bastards </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:08:34 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Lord of The Rings The Fellowship of The Ring </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:06:42 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> lol Shrek </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:06:12 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The Big Lebowski </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 06:05:37 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Airplane </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 05:54:00 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> A very beautiful but crazy chick thinks she's on a mission from god and convinces a bunch of men to travel with her and kill a bunch of other men. They do a lot of killing but eventually turn on her because they conclude that she is a liar. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 05:25:33 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The Matrix </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 05:17:30 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Pulp Fiction </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 05:10:15 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Interpersonal Relationships. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> Best gag gift you can think of? </TITLE>
+<DATE> 2019-11-04 04:51:40 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 04:45:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Stranger Things </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 04:41:44 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Your friends and family dying more and more as you progress in age. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 04:22:11 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> AB-negative blood. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 04:20:19 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> A pot of gold. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 04:18:50 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Two people getting into a ring with a huge crowd watching and cheering is totally cool. But, two people fighting each other in a street with a crowd is illegal. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 03:58:31 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Yes, because I can get a new family. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 03:56:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Begin the expedition in search for Atlantis. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 03:54:54 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Never interrupt your enemy when they are making a mistake. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 03:42:03 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Law Abiding Penis </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-11-04 03:26:16 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Mike Hunt. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-08-31 04:21:18 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Thank you all for your advice. I have withdrawn from the deal and will be purchasing another vehicle. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-08-31 04:19:21 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Thank you all for your advice. I have stepped out of the deal and will be purchasing another car. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-08-31 02:43:03 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> What would a reasonable price be given the conditions? </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> Buying a 1999 Chrysler LHS with 61k miles... Should I? </TITLE>
+<DATE> 2019-08-31 02:30:55 </DATE>
+<INFO> reddit post </INFO>
+<TEXT>  The seller is a used car dealer in my area. It snows herethis causes rust damage on most cars. The dealer gets his inventory from out of state. He essentially acts as the middleman for purchasing used cars with little to no rust. I think its smart. Regardless the vehicle in question is:
+
+1999 Chrysler LHS Sedan
+
+Listed Price: 5,999
+
+Body: SEDAN 4-DR
+
+Engine: 3.5L V6 SOHC 24V
+
+Trans: 4-Speed Automatic
+
+Drive: FWD
+
+Ext. Color: Burgundy
+
+Int. Color: Charcoal
+
+Mileage: 61,000
+
+Features: Air Conditioning, Power Door Locks, Cruise Control, Leather Seats, Alarm System, No Accidents, Southern New Jersey Vehicle, Power Steering, Power Mirrors, Driver Air Bag, Power Seats, Climate Control. Chrome Rims, Anti-Lock Brakes, Alloy Wheels, Tilt Wheel, Rear Window Defroster, One Owner, Power Windows, Passenger Air Bag, Key-less Entry, Heated Seats
+
+No Rust
+
+60 Day or 3000 Mile Limited Warranty
+
+Thats how he has it written on his site.
+
+Heres what happened when I went to test drive it:
+
+I went to test drive it today about 45 mins before his close of business.
+
+When I went to test drive the vehicle:
+
+Visually:
+
+Interior Immaculate. The inside condition was flawless. The exterior was flawless.
+
+The engine: looked flawless. I even checked the belt for tightnesswas fine.
+
+The Drive:
+
+Smooth. No bad noises or anything. It glided across the roads just fine.
+
+The brakes seemed to require more pressing than Im used to in terms of distancewhereas it took more pressure from my foot to feel the brakes breaking. I dont know if thats because they are like that on Chryslers or if there was something wrong.
+
+I also put the gas almost to the floor and couldnt really tell if there was any struggle. I didnt do it for long, only about a second or two, and it seemed fine.
+
+At one point I put the steering wheel all the way to the brink and didnt hear any abnormal noises. My current car whines a little when I do that.
+
+I verbally offered him $5,300 for the vehicle. He skeptically asked me if I was going to need a loan. It seemed he was not going to agree if I needed a loan. Once I told him Id be paying by certified bank check he agreed.
+
+I wanted to review the documentation first, so I used that as an excuse to get out of there before signing any legally binding documentation. I only had about 5 mins before he was going to close. I test drove 2 other cars and didnt want to stay any longer than I had to for the day. Regardless, I never sign anything unless I read and understand it as best as I canwhile not an attorney I have above average knowledge in legal processes and documents.
+
+Im slated to purchase the vehicle tomorrow.
+
+Based on its condition the car seems like it was owned by an elderly individual that drove it around for general errands and doctors appointments. He said he bought it from a dealer in New Jersey who got it on a trade in but didnt want to bother trying to sell it. Based on the low mileage and condition I almost think that hes telling the truth. My guess is someone passed away and whoever inherited the car traded it in.
+
+The last used car I bought was a 2003 Alero with 70,000 miles for $7,700. I drove it for 8 years with no major disqualifiers. In my area rust will kill your cars chances of passing inspection.
+
+Im not locked into any agreement. I have signed nothing. A handshake is legally worthless so I can bow out at any time tomorrow morning if I need to.
+
+Any and all advice would be greatly appreciated. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> 1999 Chrysler with 61000 miles... </TITLE>
+<DATE> 2019-08-31 02:08:06 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The seller is a used car dealer in my area. It snows herethis causes rust damage on most cars. The dealer gets his inventory from out of state. He essentially acts as the middleman for purchasing used cars with little to no rust. I think its smart. Regardless the vehicle in question is: 
+
+1999 Chrysler LHS Sedan 
+
+Listed Price: 5,999
+
+Body: SEDAN 4-DR
+
+Engine: 3.5L V6 SOHC 24V
+
+Trans: 4-Speed Automatic
+
+Drive: FWD
+
+Ext. Color: Burgundy
+
+Int. Color: Charcoal
+
+Mileage: 61,000
+
+Features: Air Conditioning, Power Door Locks, Cruise Control, Leather Seats, Alarm System, No Accidents, Southern New Jersey Vehicle, Power Steering, Power Mirrors, Driver Air Bag, Power Seats, Climate Control. Chrome Rims, Anti-Lock Brakes, Alloy Wheels, Tilt Wheel, Rear Window Defroster, One Owner, Power Windows, Passenger Air Bag, Key-less Entry, Heated Seats
+
+No Rust
+
+60 Day or 3000 Mile Limited Warranty
+
+Thats how he has it written on his site. 
+
+Heres what happened when I went to test drive it: 
+
+I went to test drive it today about 45 mins before his close of business.
+
+When I went to test drive the vehicle: 
+
+Visually: 
+
+Interior Immaculate. The inside condition was flawless. The exterior was flawless. 
+
+The engine: looked flawless. I even checked the belt for tightnesswas fine. 
+
+The Drive: 
+
+Smooth. No bad noises or anything. It glided across the roads just fine.
+
+The brakes seemed to require more pressing than Im used to in terms of distancewhereas it took more pressure from my foot to feel the brakes breaking. I dont know if thats because they are like that on Chryslers or if there was something wrong. 
+
+I also put the gas almost to the floor and couldnt really tell if there was any struggle. I didnt do it for long, only about a second or two, and it seemed fine. 
+
+At one point I put the steering wheel all the way to the brink and didnt hear any abnormal noises. My current car whines a little when I do that. 
+
+I verbally offered him $5,300 for the vehicle. He skeptically asked me if I was going to need a loan. It seemed he was not going to agree if I needed a loan. Once I told him Id be paying by certified bank check he agreed. 
+
+I wanted to review the documentation first, so I used that as an excuse to get out of there before signing any legally binding documentation. I only had about 5 mins before he was going to close. I test drove 2 other cars and didnt want to stay any longer than I had to for the day. Regardless, I never sign anything unless I read and understand it as best as I canwhile not an attorney I have above average knowledge in legal processes and documents. 
+
+Im slated to purchase the vehicle tomorrow. 
+
+Based on its condition the car seems like it was owned by an elderly individual that drove it around for general errands and doctors appointments. He said he bought it from a dealer in New Jersey who got it on a trade in but didnt want to bother trying to sell it. Based on the low mileage and condition I almost think that hes telling the truth. My guess is someone passed away and whoever inherited the car traded it in. 
+
+The last used car I bought was a 2003 Alero with 70,000 miles for $7,700. I drove it for 8 years with no major disqualifiers. In my area rust will kill your cars chances of passing inspection. 
+
+Im not locked into any agreement. I have signed nothing. A handshake is legally worthless so I can bow out at any time tomorrow morning if I need to. 
+
+Any and all advice would be greatly appreciated. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> When was a time you lost your dignity and how did you get it back? </TITLE>
+<DATE> 2019-06-13 01:50:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 01:16:46 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm an attack helicopter </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> When was the last time you beat your wife/husband and why? </TITLE>
+<DATE> 2019-06-13 01:12:51 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 00:55:34 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I keep wondering if he brought the machete down on her nose to cause the face to split or if it was a slow cut. My guess is he just chopped her with it and it split her face the rest of the wayit almost looked de-gloved a bit. The gurgling, that was gruesome. Oh and the hands or missing hands that was a surprise. The guy really wanted his cheating wife dead and suffering. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 00:48:33 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Shit, you weren't kidding... that's some gore right there. Definitely a contender. Thnks. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 00:38:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Sure thing </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 00:32:44 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Right, that vid is more than sheer gore. It's utterly brutal. If you've seen anything worse I'd be surprised. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-13 00:00:24 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> "Policeman Tortured and Beheaded, His Son Flayed Alive in Guerrero Mexico"
+
+Link: [https://www.bestgore.com/beheading/police-torture-beheading-son-flay-alive-guerrero-mexico/](https://www.bestgore.com/beheading/police-torture-beheading-son-flay-alive-guerrero-mexico/)
+
+Mind you that this vid is the most medieval shit I've ever seen. I doubt you have seen anything more gruesome. Let me know if you actually watch it. You don't have to.... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:32:58 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Could you do me a favor... I need someone haunted or whatever it is you can do... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:29:56 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Dog poop. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:23:44 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> In middle school I asked to go to the bathroom. She proceeded to correct me for about a minute telling me it was a 'restroom' because bathrooms have baths in them. I was flabbergasted and needed to piss. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:20:48 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> being monitors </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:16:45 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Math. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:15:43 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Handcuffs </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:13:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Eric Prydz - Call On Me (Official Music Video) \[HD\] </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 23:01:17 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The Mexican cartel beat a father and son with sticks. Then cut off the fathers head in front of the son. Then flayed the son from chest to midriffthe cartel dude had removed the skin from his upper chest to about his bellybutton. His intestines started to bubble out and the cartel dude played with them a little with his knife. Then broke one of his ribs and violently thrashed about the inner part of his chest with the knife. Then reached in with his hand and pulled out his heartit was still beating. He was technically alive the whole time until the cartel dude ripped his heart out of his chest. I showed it to a friend and he almost passed out... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 22:56:06 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Science, Tech, Engineering, and Mathematics. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 22:52:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> My landlord gave me a loadable cash card for laundry. I used it for a year without issue. One week I loaded 20 dollars onto it. A few days later I went to do my laundry and it presented a 'ERR' message. I went to the office to solve the issue. They told me, "sorry that's too bad. Here's another card. No we wont refund you. Good luck." I felt very scammed but excepted my fate and keep trying to find a way to get my 20 bucks back... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 16:21:54 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> When someone is too nice too quickly and seemingly inquisitive about things that shouldn't bother them. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:59:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> \~10 days. I have 7 bottles of water and a large top round roast that just finished cooking. After I run out of water I'm toast. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:54:16 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Before you do this look up the divorce rate... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:50:41 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Cancer </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:46:25 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Repopulate. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:42:11 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> They would change into....divorced. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:39:46 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The same way I reacted the first time. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:34:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I had gotten home from work at 2:30am on a Saturday night. Looked down from my fourth floor apartment and saw 2 people having sex in a vanI could see it through the windshield and I only saw the person on top. I wasn't sure if it was consensual I called the cops in case it wasn't. Usually I never call the cops but in this case for the greater good I did. The cops took \~20mins to show up and the van was gone. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:27:40 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Reading and Math </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:25:38 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Handcuffs </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:14:57 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Watch Jessica Jones on Netflix. Every time she drinks you drink. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 15:08:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> McVeigh. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-12 03:03:02 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> *"Are you basically wondering if a Smok mod can run at 3w and allow you to use salts?"* 
+
+Yes sir, that is my main premiss. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-11 21:04:20 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The amount of amps (current) would be different because the resistances (ohms) are different. Thus the result would be different... Here is a calculator:  [http://energyusecalculator.com/watts\_volts\_amps\_ohms.htm?](http://energyusecalculator.com/watts_volts_amps_ohms.htm?) </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-11 20:50:57 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm gunna find out in a few days. Just wanted to discuss. Regardless, discussion leads to innovation. We will see... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-11 20:47:22 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm going to experiment with this regardless but I think the 'controversial math' doesn't account for resistance (Ohms). Less resistance creates more current, thus allowing more heat, leading to more vapor. So a hit from a Novo: the square-root of 16 watts / 1.2 ohms = 3.65 Amps (Current)
+
+ #x200B;
+
+If you did the same for a Morph: Square-root of 16 watts / .25 ohms = 8 amps (Current)
+
+The hit from the Morph would be almost 200% more powerful than the Novo in terms of current while using the same wattage...
+
+So more heat ... and more vapor... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-11 20:24:10 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> If the Coils are made of similar material couldnt we still estimate how much current it would take to equate a similar experience by looking at the difference between the 2 coils Mass? 
+
+So to calculate it right could you estimate: If the Morph coil is 2x the size of the Novo coil it would require twice the current? Could you just double the Watts from 3.33 to \~6 Wattsthis would double the current. Thats assuming electricity would travel through the material slower because of the Mass difference
+
+Thanks for the response btw </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-06-11 20:11:16 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Current and wattage work in tandem with each other: More wattage means more current and vice versa. The element that makes a difference is the resistance (Ohms). </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> An inquiry on Nicotine Salts and Sub-ohm systems </TITLE>
+<DATE> 2019-06-11 19:22:11 </DATE>
+<INFO> reddit post </INFO>
+<TEXT>   
+
+https://preview.redd.it/21ai27q9hr331.png?width=975 format=png auto=webp s=6152118a3f75a325127d8da74848feb8040127d0 </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-04-15 21:11:08 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Breast feeding from your mum... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> [Academic] [repost] Geographic Polarization Survey (US 18+) </TITLE>
+<DATE> 2019-04-08 20:43:22 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm an undergraduate student conducting a brief survey. The survey explores geographic migration as it relates to political polarization.
+
+This survey is completely anonymous and voluntary. Thank you for your participation:
+
+[https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1](https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1)
+
+Feel free to share with others as well. Thank You. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> [Academic] [repost] Geographic Polarization Survey (US 18+) </TITLE>
+<DATE> 2019-04-07 18:40:12 </DATE>
+<INFO> reddit post </INFO>
+<TEXT>   I'm an undergraduate student conducting a brief survey. The survey explores geographic migration as it relates to political polarization.
+
+This survey is completely anonymous and voluntary. Thank you for your participation:
+
+[https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1](https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1)
+
+Feel free to share with others as well. Thank You. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-04-06 19:47:07 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Good catch! The best I can hope for is that; if a respondent is from D.C. they place D.C. in the county box. I should be able to figure it out when I analyze the data. Thanks for pointing that out though. If I do a subsequent questionnaire I'll definitely account for that. Thanks again. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> [Academic] [repost] Geographic Polarization Survey (US 18+) </TITLE>
+<DATE> 2019-04-06 15:29:15 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm an undergraduate student conducting a brief survey. The survey explores geographic migration as it relates to political polarization.
+
+This survey is completely anonymous and voluntary. Thank you for your participation:
+
+[https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1](https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1)
+
+Feel free to share with others as well. Thank You. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> [Academic] [repost] Geographic Polarization Survey (US 18+) </TITLE>
+<DATE> 2019-04-05 00:32:35 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Hello,
+
+I'm an undergraduate student conducting a brief survey. I hope that my fellow reddit users would grace me with their voluntary participation. The survey explores geographic migration as it relates to political polarization.
+
+This survey is completely anonymous and voluntary. Thank you for your participation:
+
+ [https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1](https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1)
+
+ #x200B;
+
+ Feel free to share with others as well. Thank You. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE> [Academic] Geographic Polarization Survey (US 18+) </TITLE>
+<DATE> 2019-04-03 23:29:14 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Hello,
+
+I'm an undergraduate student conducting a brief survey. I hope that my fellow reddit users would grace me with their voluntary participation. The survey explores geographic migration as it relates to political polarization.
+
+This survey is completely anonymous and voluntary. Thank you for your participation if you so choose:  [https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1](https://docs.google.com/forms/d/e/1FAIpQLSf475uSQfAQ8e7hBYzdARMAvHD6WG4dW0CrvLjRBkHKMOIPdw/viewform?vc=0 c=0 w=1)
+
+ #x200B;
+
+Feel free to share with others as well. Thank You. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 19:07:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Chess, when the difficulty is set to Grand-master or an equivalently highest setting.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 19:05:11 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Nearly everything. Nothing on social media is worth 'hype' because less than 1% of it directly effects me--and 1% is generous.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 18:50:06 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Pneumonia, as in, I have Pneumonia and can't go into work today.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 18:46:28 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Gold.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 02:46:00 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Puts their bare feet up on my coffee table, eats my food, drinks my booze, and brings nothing to the party.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2019-01-24 02:40:38 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> When they tell you how they really feel because they are comfortable doing so.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-09-26 07:04:59 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Phantasmagorical  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-09-26 06:45:41 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Empires Allies  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-08-03 00:44:40 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> It was for a call center and the interviewer tried to 'role-play' a call. I was thinking, 'this is stupid' no...  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-08-03 00:36:40 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I threw a cigarette out my window. Cop threw on his lights. I pulled over. He asked me did you just throw a cigarette out your window. I said 'Yeah'. He said, "just use your ash tray from now on." I was like sure. He drove away. I drove away. Dumbest reason I've ever been pulled over...  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 16:26:06 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm 71 and what is this?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:39:25 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> How do you make a plumber cry? .................................Kill his family. 
+
+Anti-joke for sure.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:37:02 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> When people began to combine real life with their internet life.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:32:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The opening scene of    Up!  It reminds me I'm still human.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:31:04 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'd go back a day. In the comfort of my past home I would print out the Lotto numbers for the next day. No need to be greedy. One jackpot will be enough.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:27:03 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The 48 Laws of Power by Robert Greene </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 15:26:07 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> My Boat.      Every time someone says the name people will be confused.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:49:20 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> A copious amount of alcohol in a very short period of time.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:45:28 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Still Standing: starring Mark Addy and Jami Gertz... </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:42:02 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> The Meditations by Marcus Aurelius.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:40:11 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Jesus. I want to know how he turned the water into wine. It would save me a lot of money if I knew.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:33:15 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> A stripper purred in my ear and then licked it. I got a boner. It was very sexy. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:30:05 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> My buddy and I had just sat down with our beer. We were toward the back and had a good visual of the whole place. There was an older guy sitting right by the stage. All of the sudden this older ladywho clearly wasnt a strippertrudged right up to the older guy and yelled, I f\*\*\*ing knew it! and smacked his beer off the table. Then she trudged out. We started laughing. Then the bouncer kicked the old guy out. It was hilarious. I kinda felt bad for the guy though.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:19:13 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Apparently in NY "fortune telling" is a class B misdemeanor, penal code 165.35. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:11:03 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> "It is what it is"-- I hate that saying.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:09:40 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> So true. At first, trust no one.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:06:51 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> "Because I've passed into a parallel universe where America is now run by Fascists?"  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:03:05 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I trained myself to write with my left and right hand--just in case I broke my dominant hand. Super useful.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 05:00:19 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I lost about 90 pounds.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:59:07 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I still do it. I save hundreds of dollars a year cutting my own hair.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:50:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Interstellar space travel for everyone.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:48:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Sucker punch your attorney. You go to jail and you have to find a new attorney.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:44:33 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> My former roommate kept going in my room. This is a pet peeve of mine. The first time he did it I just asked him nicely not to do it. The second time he did it he left 2/3 full beer can on top of my computer. So I set up a MAC address filter on our router and permitted his PS3, phone, and even his girlfriends phone. But I blocked his Mac book for 6 months. He had no idea how to use a router. It was hilarious watching him try and figure out why he could use all of his devices except his Mac book on the network--for six months. I don't know who was a worse roommate...  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:34:52 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I was dating this girl and broke up with her right before her birthday. I didn't want to buy anything. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:33:19 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Watching any of my peers from high school surpass me professionally.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:25:03 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Quesadilla. I say Kay-sa-dil-a. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:21:43 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> George Carlin.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:19:24 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I tend to over analyze a lot. I apparently "think too much". I might be on the spectrum. But I don't know for sure. I've been thinking about it for years.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:17:23 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Do what?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:16:49 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Living. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:16:27 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I've worked as a bouncer for nearly a decade. When some idiot spilled there drink all over the bar tender our newest guy laughed. Bartender was pissed and my boss fired him right then and there. He was so oblivious that he was still asking what he had done on his way out the door. I asked my boss where he found that guy. Said he came "recommended". I told him that someone had to be playing a sick joke on him for the guy was useless.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:11:21 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Day Trading. Do your research though. Trade smartly.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:10:25 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Car insurance. It's mandated by the government but yet I've never used it.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:07:48 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I scream in agony. Then I ask, "is it bad if it burns when you pee..." reactions are priceless. </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:04:52 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> What does poop taste like?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:04:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Being overly analytical all the time. Super annoying and deserving of a villain.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-07-25 04:02:09 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> There is such a thing as a stupid question.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:55:04 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Does this actually work?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:47:05 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I was in Las Vegas for New Years of 2012 and I started talking to this older lady. Everyone at the club I went to was pretty nice. I'm from the east coast so I'm not used to people being so friendly. 
+
+Anyway, we were talking about little small talk things and the normal stuff you might talk with someone about. 
+
+That is until she told me that they were watching her. 
+
+I ask, "wait what do you mean they". 
+
+She says, "the government, they're out to get me" 
+
+I quickly realized she was nuts and couldn't resist putting my index and middle finger to my ear as if listening to a microphone and said "she knows". 
+
+She dipped out pretty quick.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:40:28 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I'm very confused. Was this inflatable thing that is caused by inflation because inflation could be good inflation or bad inflation but inflation that is fun may be inflation fun or not inflation fun but no one seems to be having inflation fun\-\-except Mr. Wacky for he is having lots of inflation fun.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:32:54 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> But where did they go?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:23:45 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Deny everything... and brace for impact...  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-05 14:16:18 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Is this rejected footage of a Hellmann's Mayo commercial?  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-02 04:02:43 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> Almost everyone around me in some way or another and in varying degrees.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-02 03:52:08 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> A brand new summons to court.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-02 03:38:30 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> I tried this and all it did was make a mess. I suggest not doing this.  </TEXT>
+</WRITING>
+<WRITING>
+<TITLE>   </TITLE>
+<DATE> 2018-06-02 03:24:19 </DATE>
+<INFO> reddit post </INFO>
+<TEXT> He really started to give up by mugshot 4...  </TEXT>
+</WRITING>
+</INDIVIDUAL>
